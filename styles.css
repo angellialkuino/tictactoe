@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    color: coral;
+    margin: 0 0 2.5rem 0;
+    line-height: 0;
+}
+
+.button {
+    border: none;
+    background-color: coral;
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.25rem;
+    padding: 0 1rem;
+    margin: 1.25rem 0 0 0;
+}
+
+.container {
+    height: 20rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: coral;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.box {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsalmon;
+    color: white;
+    user-select: none;
+    font-size: 4.5rem;
+    margin-block: 0;
+    line-height: 0;
+    overflow: hidden;
+}
